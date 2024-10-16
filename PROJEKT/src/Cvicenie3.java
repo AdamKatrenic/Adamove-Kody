@@ -10,8 +10,7 @@ public class Cvicenie3 {
         System.out.println((double)pes/macka);
         System.out.println(pes/macka);
         System.out.println(pes%macka);
-
-
+        
         // Create a program that prints a few operations on two numbers: 22 and 13
 
         // Print the result of 13 added to 22
