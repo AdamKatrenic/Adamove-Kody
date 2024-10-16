@@ -8,7 +8,7 @@ public class Variables {
     public static void main(String[] args) {
         int daysInWeek = 7;
         int daysInMonth = 30;
-        int daysInYear = 365
-        System.out.println();
+        int daysInYear = 365;
+        System.out.println(daysInWeek);
     }
 }
