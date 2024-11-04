@@ -1,7 +1,9 @@
+package variables;
+
 public class PrintValues {
     public static void main(String[] args) {
 
-        String Hello = "Hello, World";
+        String Hello = "variables.Hello, World";
         int window = 42;
         float Pi = 3.14f;
 

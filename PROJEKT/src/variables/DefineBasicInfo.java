@@ -1,5 +1,7 @@
+package variables;
+
 public class DefineBasicInfo {
-    //public class DefineBasicInfo {
+    //public class variables.DefineBasicInfo {
     //  public static void main(String[] args) {
     //    // Define several things as a variable then print their values
     //    // Your name as a string

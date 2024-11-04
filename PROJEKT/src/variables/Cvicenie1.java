@@ -1,3 +1,5 @@
+package variables;
+
 public class Cvicenie1 {
     public static void main(String[] args) {
 

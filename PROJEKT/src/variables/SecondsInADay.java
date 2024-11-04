@@ -1,5 +1,7 @@
+package variables;
+
 public class SecondsInADay {
-    //public class SecondsInADay {
+    //public class variables.SecondsInADay {
     //  public static void main(String[] args) {
     //    int currentHours = 14;
     //    int currentMinutes = 34;
@@ -18,7 +20,7 @@ public class SecondsInADay {
          int DayInSeconds = 24*60*60;
 
 
-         //int SecondsInADay = 24 * 60 * 60;
+         //int variables.SecondsInADay = 24 * 60 * 60;
          //int SecondsInAMinute = 60 * 60;
         // int SecondsInASecond= 60;
 

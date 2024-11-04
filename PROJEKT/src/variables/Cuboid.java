@@ -1,5 +1,7 @@
+package variables;
+
 public class Cuboid {
-    //public class Cuboid {
+    //public class variables.Cuboid {
     //  public static void main(String[] args) {
     //    // Write a program that stores 3 sides of a cuboid as variables (doubles)
     //    // The program should write the surface area and volume of the cuboid.

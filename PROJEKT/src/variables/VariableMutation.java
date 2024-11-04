@@ -1,6 +1,8 @@
+package variables;
+
 public class VariableMutation {
     public static void main(String[] args) {
-        //public class VariableMutation {
+        //public class variables.VariableMutation {
         //  public static void main(String[] args) {
         //    int a = 3;
         //    // increase the value of variable "a" by 10

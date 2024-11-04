@@ -1,3 +1,5 @@
+package variables;
+
 public class FavouriteNumber {
     //public class FavoriteNumber {
     //  public static void main(String[] args) {

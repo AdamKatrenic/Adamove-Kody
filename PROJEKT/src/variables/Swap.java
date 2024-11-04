@@ -1,7 +1,9 @@
+package variables;
+
 public class Swap {
-    //public class Swap {
+    //public class variables.Swap {
     //  public static void main(String[] args) {
-    //    // Swap the values of the variables without changing the following 2 lines of code
+    //    // variables.Swap the values of the variables without changing the following 2 lines of code
     //    int a = 123;
     //    int b = 526;
     //
