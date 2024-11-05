@@ -1,3 +1,5 @@
+package Booleany;
+
 public class HungryAndThirsty {
     //Create a program that decides whether it's "Lunch time," "Snack time," or "No food" based on the user’s thirst and hunger levels.
     //
