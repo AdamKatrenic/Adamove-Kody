@@ -1,7 +1,9 @@
+package variables;
+
 import java.util.Scanner;
 
 public class GuessTheNumber {
-    //public class GuessTheNumber {
+    //public class variables.GuessTheNumber {
     //  public static void main(String[] args) {
     //    int storedNumber = 8;
     //    // Write a program that stores a number and the user has to figure it out.

@@ -1,7 +1,9 @@
+package Loop;
+
 import java.util.Scanner;
 
 public class DrawTriangle {
-    //public class DrawTriangle {
+    //public class Loop.DrawTriangle {
     //  public static void main(String[] args) {
     //    // Write a program that reads a number from the standard input and
     //    // then draws a triangle of the specified height
