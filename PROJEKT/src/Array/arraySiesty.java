@@ -1,3 +1,5 @@
+package Array;
+
 public class arraySiesty {
     //public class DoubleItems {
     //    public static void main(String[] args) {

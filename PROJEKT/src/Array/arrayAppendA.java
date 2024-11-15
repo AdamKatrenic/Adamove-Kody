@@ -1,3 +1,5 @@
+package Array;
+
 public class arrayAppendA {
     //public class AppendA {
     //    public static void main(String[] args) {
@@ -17,11 +19,12 @@ public class arrayAppendA {
     public static void main(String[] args) {
         String[] animals = {"koal", "pand", "zebr", "anacond", "bo", "chinchill", "cobr","gorill", "hyen",
                 "hydr", "iguan", "impal", "pum", "tarantul","piranh"};
+        System.out.print("[");
         for (int i = 0; i < animals.length; i++) {
-            System.out.println("[");
             System.out.print(animals[i] + "a ,");
             
         }
+        System.out.println("]");
     }
 
 }
