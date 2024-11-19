@@ -1,3 +1,5 @@
+package Functions;
+
 public class doublingFunkcia {
     //public class Doubling {
     //  public static void main(String[] args) {

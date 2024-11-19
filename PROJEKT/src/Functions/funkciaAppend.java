@@ -1,3 +1,5 @@
+package Functions;
+
 public class funkciaAppend {
     //// Create the usual class wrapper (AppendAFunc) and main method on your own
     //

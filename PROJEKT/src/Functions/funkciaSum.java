@@ -1,3 +1,5 @@
+/*package Functions;
+
 import java.util.Scanner;
 
 public class funkciaSum {
@@ -19,3 +21,4 @@ public class funkciaSum {
         }
     }
 }
+*/
