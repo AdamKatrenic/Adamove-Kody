@@ -1,3 +1,4 @@
+import javax.naming.Name;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class listIntroduction {
         //print out the 3rd element
         System.out.println(Names.get(2));
         System.out.println(" ");
+
         //Iterate through the list in a reversed order and print out each name
         for (String meno:Names){
             System.out.println(meno);
@@ -32,6 +34,13 @@ public class listIntroduction {
         //Remove all elements
         Names.clear();
         System.out.println(Names.size());
+        Names.add("William");
+        Names.add("Amanda");
+        Names.add("John");
+        for (int i = 0; i < Names.size(); i++) {
+            System.out.println((i + 1)+ ". " + Names.get(i));
+            
+        }
 
     }
 }
