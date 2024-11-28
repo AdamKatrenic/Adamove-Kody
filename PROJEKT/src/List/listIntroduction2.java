@@ -1,3 +1,5 @@
+package List;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,10 +50,12 @@ public class listIntroduction2 {
         ListB.addAll(List.of("Passion Fruit" , "Pomelo"));
         System.out.println(" ");
 
-        System.out.println(ListA.get(3));
+        System.out.println(ListA.get(2));
         System.out.println(" ");
 
-        System.out.println(ListA.get());
+        System.out.println(ListA);
+        System.out.println(ListB);
+
 
 
 
