@@ -4,12 +4,9 @@ public class Animal {
     public static void main(String[] args) {
 
 
+        Farm Osikov = new Farm(10);
 
-        Zvierata kon = new Zvierata("kon Dodo");
-        Zvierata tiger = new Zvierata("tiger Adam");
-
-        System.out.println("tiger" + tiger.getHunger());
-
+        
 
     }
     //Create an Animal class
@@ -20,6 +17,7 @@ public class Animal {
     //Every animal can eat() which decreases its hunger by one
     //Every animal can drink() which decreases its thirst by one
     //Every animal can play() which increases both its hunger and thirst by one
+
 
 
 }

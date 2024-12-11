@@ -13,23 +13,23 @@ public class Ceruzka {
         return inkAmount;
     }
     public String getInkPercento(){
-        return color + " " + inkAmount + "%";
+        return color + " " + inkAmount + " %";
     }
 
 
         String color;
     int width;
-    int inkAmount;
+    public int inkAmount;
 
     public void use(){
         if (inkAmount>0){
             inkAmount = inkAmount - 10;
-            System.out.println(color + " " + inkAmount + "%");
+            //System.out.println(color + " " + inkAmount + "%");
 
-            if (inkAmount==0){
-                doplnitPero();
-                getInkPercento();
-            }
+            //if (inkAmount==0){
+              //  doplnitPero();
+              //  getInkPercento();
+            //}
         }
 
     }

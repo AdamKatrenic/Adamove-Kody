@@ -1,4 +1,6 @@
-package Objekty.inheritance;
+package Objekty.Hra1;
+
+import Objekty.Hra1.Zbrane.Weapons;
 
 public class NPC {
     int damage;
@@ -6,6 +8,11 @@ public class NPC {
     int magicResist;
     int level;
     int health;
+    Weapons zbran;
+
+    public NPC(Weapons zbran) {
+        this.zbran = zbran;
+    }
 
     public NPC(int damage, int armor, int magicResist, int level, int health) {
         this.damage = damage;
@@ -53,5 +60,22 @@ public class NPC {
 
     public void setHealth(int health) {
         this.health = health;
+    }
+
+    public void addWeapon(Weapons weapons) { //tu pridavame zbran
+        this.zbran = zbran;
+    }
+
+    public String showWeapon() {
+        if (zbran != null) {
+            return "Weapon damage : " + zbran.getDamage() +
+                    "Weapon range : " + zbran.getRange() +
+                    "Weapon attack speed : " + zbran.getAttackSpeed();
+
+        } else {
+            return "No weapon";
+        }
+
+
     }
 }

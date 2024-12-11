@@ -1,8 +1,8 @@
 package Objekty.cvicenie3;
 
-public class Zvierata {
+public class Zviera {
 
-    public Zvierata(String meno) {
+    public Zviera(String meno) {
         this.hunger = 50;
         this.thirst = 50;
         this.meno = meno;
