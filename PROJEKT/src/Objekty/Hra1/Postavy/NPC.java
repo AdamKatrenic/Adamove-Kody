@@ -1,4 +1,4 @@
-package Objekty.Hra1;
+package Objekty.Hra1.Postavy;
 
 import Objekty.Hra1.Zbrane.Weapons;
 

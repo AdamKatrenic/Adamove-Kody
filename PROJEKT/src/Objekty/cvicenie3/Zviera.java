@@ -17,7 +17,6 @@ public class Zviera {
     public void eat(){
     if (hunger>0){
         hunger --;
-        System.out.println(hunger);
     }
     }
 

@@ -1,8 +1,9 @@
 package Objekty.Hra1;
 
+import Objekty.Hra1.Postavy.Gremlin;
+import Objekty.Hra1.Postavy.NPC;
 import Objekty.Hra1.Zbrane.Luk1;
 import Objekty.Hra1.Zbrane.Mec1;
-import Objekty.Hra1.Zbrane.Weapons;
 
 public class Main {
     public static void main(String[] args) {
