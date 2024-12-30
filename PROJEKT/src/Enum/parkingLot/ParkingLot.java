@@ -1,4 +1,4 @@
-package Enum.parkingLot;
+/*package Enum.parkingLot;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,4 +22,4 @@ public class ParkingLot {
         System.out.println();
 
     }
-}
+}*/
