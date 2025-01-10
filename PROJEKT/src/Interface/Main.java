@@ -2,24 +2,31 @@ package Interface;
 
 public class Main {
     public static void main(String[] args) {
-        Person person1 = new Person("Jane Doe",30,"female");
         Student student1 = new Student("Jane Doe", 30, "female", "The School of Life" , 0);
         Mentor mentor1 = new Mentor("Jane Doe",30, "female", "intermediate");
         Sponsor sponsor1 = new Sponsor("Jane Doe", 30, "female", "Google", 0);
-        Cohort cohort1 = new Cohort("Trieda");
+        Cohort cohort1 = new Cohort("Class");
 
-        cohort1.addMentor(mentor1);
-        cohort1.addStudent(student1);
+        Student john = new Student("John",20,"male","BME",0);
+
+        Student Adam = new Student();
+        Student AdamCloned = Adam.clone();
+
+        Student Tomas = new Student("Tomas", 20, "male", "Hertink", 2);
+        Tomas.introduce();
+
+        AdamCloned.introduce();
 
 
-        sponsor1.hire();
-        sponsor1.hire();
-        sponsor1.hire();
-        sponsor1.hire();
+        cohort1.addStudent(AdamCloned);
+        cohort1.addStudent(Adam);
+        cohort1.addStudent(Tomas);
 
-        sponsor1.introduce();
+        Adam.introduce();
 
+        cohort1.addStudent(john);
 
+        cohort1.info();
 
     }
 }
